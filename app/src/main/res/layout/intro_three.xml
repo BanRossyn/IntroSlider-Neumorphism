@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundfirst"
+        android:backgroundTint="@color/whatsapp_color"
+        android:backgroundTintMode="multiply">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backgroundsecond"
+            android:backgroundTint="@color/whatsapp_color"
+            android:backgroundTintMode="multiply">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/backgroundthird"
+                android:backgroundTint="@color/whatsapp_color"
+                android:backgroundTintMode="multiply">
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/threelottie"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="100dp"
+                    app:layout_constraintBottom_toTopOf="@+id/threetv1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/whatsapp_icon_intro" />
+
+                <TextView
+                    android:id="@+id/threetv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/whatsapp"
+                    android:textColor="@color/primary_text"
+                    android:textSize="30sp"
+
+                    app:layout_constraintEnd_toEndOf="@+id/threelottie"
+                    app:layout_constraintStart_toStartOf="@+id/threelottie"
+                    app:layout_constraintTop_toBottomOf="@+id/threelottie" />
+
+                <TextView
+                    android:id="@+id/threetv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/threetv1"
+                    android:textColor="@color/primary_text"
+                    android:textSize="22sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/threetv1" />
+
+                <TextView
+                    android:id="@+id/threetv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="@string/threetv2"
+                    android:textColor="@color/primary_text"
+                    android:textSize="18sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/threetv2" />
+
+                <TextView
+                    android:id="@+id/threetv4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:text="@string/threetv3"
+                    android:textColor="@color/secondary_text"
+                    android:textSize="14sp"
+                    android:gravity="center"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/threetv3" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

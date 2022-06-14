@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <array name="active">
+        <item>@color/primary</item>
+        <item>@color/primary</item>
+        <item>@color/primary</item>
+
+    </array>
+
+    <array name="inactive">
+        <item>@color/secondary_text</item>
+        <item>@color/secondary_text</item>
+        <item>@color/secondary_text</item>
+
+    </array>
+</resources>

@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">IntroInStory</string>
+
+    <string name="facebook">Facebook</string>
+    <string name="facebookdescription">Facebook Storys &amp; Videos</string>
+    <string name="instagram">Instagram</string>
+    <string name="instagramdescription">Posts, Reels &amp; Videos</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="whatsappdescription">WA &amp; WA Business Storys</string>
+
+    <string name="developername">Ban Rossyn</string>
+    <string name="banrossyn_instalink">https://www.instagram.com/banrossyn</string>
+
+    <string name="onetv1">Downloader for Instagram</string>
+    <string name="onetv2">Photos, Videos, Reels, Storys &amp; Highlights</string>
+    <string name="onetv3">☆ Fast Download.\n☆ Simple and easy interface.\n☆ Only one app contains Bookmark Downloader. \n☆ Download and Save Video and Picturs. \n☆ Download Everything via Login. \n☆ Support for batch-downloading. \n☆ View All Download Files in Gallery. \n☆ Share media with anyone.</string>
+
+
+    <string name="twotv1">Downloader for Facebook</string>
+    <string name="twotv2">HD video download supported</string>
+    <string name="twotv3">☆ Story Saver for Facebook\n ☆ Photo downloader for Facebook\n ☆ Video Downloader for Facebook\n ☆ This is the best video saver for Facebook</string>
+
+
+    <string name="threetv1">Downloader for Whatsapp &amp; WhatsappBusiness</string>
+    <string name="threetv2">Status Saver for Whatsapp</string>
+    <string name="threetv3"><![CDATA[☆ Free Status Images & video downloader.\n ☆ Save, Repost, Share Statuses.\n ☆ Quick & Easy download Videos.\n ☆ Built-in HD Video Player.]]></string>
+
+
+    <string name="feedback">Feedback</string>
+    <string name="email_feedback">banrossyn@gmail.com</string>
+    <string name="feedbackdis">Leave a Mail</string>
+    <string name="AboutLink">banrossyn@gmail.com</string>
+    <string name="policy">Privacy</string>
+    <string name="policydis">User Rights</string>
+    <string name="policy_url">https://banrossyn.blogspot.com/2022/01/%20InStoryPrivacyPolicy.html</string>
+    <string name="developerlink">https://play.google.com/store/apps/dev?id=5306067645342206751</string>
+    <string name="gallery_tag">Instagram | Whatsapp | Facebook\nYour Downloaded Items</string>
+
+    <string name="rate_app_name">Rate Us</string>
+    <string name="rate_tag">Show Some Love.</string>
+    <string name="more_app_name">More App</string>
+    <string name="more_app_tag">View Over Other Creations</string>
+
+    <string name="share">Share</string>
+    <string name="sharedis">Share with Friends</string>
+
+    <string name="gallery">Gallery</string>
+
+    <string name="help">Help</string>
+    <string name="helpdis">How To Use\nThis App</string>
+</resources>
