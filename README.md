@@ -3,7 +3,7 @@
   <h1 align="center">Introslider | Neumorphism</h1>
   
   Android Application to display intro slider which attracts and helps the user to know about the application using JAVA programming language.
-  Lonch Frist time using SharedPreferences.
+  Launch Frist time using SharedPreferences.
   
   ![IntroSlider ](https://user-images.githubusercontent.com/97843190/173628294-7a1ed406-badf-4c8f-bca1-4161e11a5580.jpg)
 
