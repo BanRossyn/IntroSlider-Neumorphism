@@ -66,7 +66,7 @@ Instagram Story Saver, Download & Repost. Facebook Images & Video Download with 
 ## License
 
 ```
-Copyright 2020 SOUP
+Copyright 2020 Rossyn
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements. See the NOTICE file distributed with this work for
